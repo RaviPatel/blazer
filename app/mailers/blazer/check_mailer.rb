@@ -1,5 +1,5 @@
 module Blazer
-  class CheckMailer < ActionMailer::Base
+  class CheckMailer < ApplicationMailer
     include ActionView::Helpers::TextHelper
 
     default from: Blazer.from_email if Blazer.from_email
